@@ -1,0 +1,14 @@
+#ignore vscode folder
+/.vscode
+
+#ignore all files
+*
+
+#except files
+!*.gitignore
+!*.cpp
+!*.txt
+!*.xlsx
+!*.c
+!*.py
+!*/
