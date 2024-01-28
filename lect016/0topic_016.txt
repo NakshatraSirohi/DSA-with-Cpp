@@ -1,0 +1,8 @@
+--- TOPICS ---
+>> Selection Sort
+>> Slightly Optimized Selection Sort
+
+
+--- ARTICLES ---
+>> Highly Optimized Selection Sort (MinMax Selection Sort)
+    https://www.geeksforgeeks.org/sorting-algorithm-slightly-improves-selection-sort/

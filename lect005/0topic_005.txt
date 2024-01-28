@@ -1,0 +1,12 @@
+--- TOPICS ---
+>> bitwise operators
+>> for loop  (sum 1 to n program)
+>> Variable and Scope
+>> Break, Continue Statement
+>> pre/post increment & decrement operators
+>> fibonacci series basic program
+>> prime number check basic program
+
+--- PROBLEMS ---
+>> leetcode - Subtract the Product and Sum of Digits of an Integer
+>> leetcode - Number of 1 Bits

@@ -1,0 +1,4 @@
+--- PROBLEMS ---
+>> Find the index of Pivot element in a rotated sorted array (Pivot Array)
+>> codestudio - Search element in a Rotated Sorted Array
+>> leetcode - Sqrt(x) using Binary Search with Precision

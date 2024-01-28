@@ -1,0 +1,5 @@
+--- TOPICS ---
+>> cin functionality
+>> if-else ladder
+>> loops
+>> basic pattern printing

@@ -1,0 +1,3 @@
+--- PROBLEMS ---
+>> Pattern printing
+    (total of 21 patterns)

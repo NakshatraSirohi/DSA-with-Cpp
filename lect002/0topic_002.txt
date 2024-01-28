@@ -1,0 +1,3 @@
+--- TOPICS ---
+>> cout functionality
+>> basic datatypes

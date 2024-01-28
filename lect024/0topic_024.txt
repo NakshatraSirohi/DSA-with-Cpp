@@ -1,0 +1,16 @@
+--- TOPICS ---
+>> Seive of Eratosthenes (prime no. check)
+>> GCD and LCM
+>> Fast Exponentiation
+
+
+--- PROBLEMS ---
+>> leetcode - Count Primes
+>> codestudio - Modular Exponentiation
+
+
+--- ARTICLES ---
+>> Prime Number Optimized Solution
+    https://www.linkedin.com/pulse/optimized-prime-number-algorithm-surya-satish-vegisetti
+    https://www.geeksforgeeks.org/analysis-different-methods-find-prime-number-python/
+    https://research.cs.wisc.edu/techreports/1990/TR909.pdf

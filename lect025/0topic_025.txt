@@ -1,0 +1,4 @@
+--- TOPICS ---
+>> Basics of Pointer
+    (null pointer, copy pointer, arithematics)
+>> Pointer on Array

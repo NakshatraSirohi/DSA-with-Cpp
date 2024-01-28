@@ -1,0 +1,15 @@
+--- TOPICS ---
+>> Basics of String & Char Arrays
+
+
+--- PROBLEMS ---
+>> leetcode - Reverse String
+>> codestudio - Check If The String Is A Palindrome
+>> leetcode - Valid Palindrome   [same as problem-2]
+>> leetcode - Reverse Words in a String II
+>> geeksforgeeks - Maximum Occuring Character
+>> codestudio - Replace Spaces
+>> leetcode - Remove All Occurrences of a Substring
+>> leetcode - Permutation in String
+>> leetcode - Remove All Adjacent Duplicates In String  ::  HW
+>> leetcode - String Compression

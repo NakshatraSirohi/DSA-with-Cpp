@@ -1,0 +1,10 @@
+--- TOPICS ---
+>> Copying Array
+
+--- PROBLEMS ---
+>> question - Swap Alternate Element of an Array
+>> codestudio - Find Unique
+>> codestudio - Duplicate In Array
+>> codestudio - Intersection Of Two Sorted Arrays
+>> codestudio - Pair Sum
+>> question - Sort 0 1

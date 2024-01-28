@@ -1,0 +1,4 @@
+--- PROBLEMS ---
+>> codestudio - First and Last Position of an Element In Sorted Array
+     additional ques. - find total no. of occurrences of a key
+>> leetcode - Peak Index in a Mountain Array  (852)
