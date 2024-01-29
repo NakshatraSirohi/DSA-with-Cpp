@@ -1,5 +1,7 @@
 --- TOPICS ---
 >> Basics of String & Char Arrays
+    string length, copy, reverse
+    lowercase & uppercase conversion
 
 
 --- PROBLEMS ---

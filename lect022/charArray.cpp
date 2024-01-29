@@ -53,10 +53,37 @@ void func2()
     cout << "size of str : " << size << endl;
 }
 
+char toLower(char ch)
+{
+    if ((ch >= 'a') && (ch <= 'z'))
+    {
+        return ch;
+    }
+    else
+    {
+        char x = ch - 'A';
+        char y = x + 'a';
+        return y;
+    }
+}
+
 // REVERSE OF STRING >> PROBLEM-1
+
+void strg()
+{
+    // major difference between strings and character arrays
+    string str = "Helllo";
+    str[3] = '\0';
+
+    char str1[10] = "Helllo";
+    str1[3] = '\0';
+
+    cout << "String = " << str << endl;
+    cout << "Char array = " << str1 << endl;
+}
 
 int main()
 {
-    func1();
+    strg();
     return 0;
 }
