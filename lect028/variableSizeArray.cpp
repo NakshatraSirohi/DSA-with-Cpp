@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// DYNAMIC MEMORY ALLOCATION
+
 int getSum(int *arr, int n)
 {
     int sum = 0;

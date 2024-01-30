@@ -1,2 +1,4 @@
 --- TOPICS ---
 >> Reference Variable
+>> Dynamic Memory Allocation
+    Variable size array (size input from user)
