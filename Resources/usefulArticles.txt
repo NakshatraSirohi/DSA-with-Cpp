@@ -1,0 +1,11 @@
+>> Introsort in C++
+    https://www.geeksforgeeks.org/introsort-cs-sorting-weapon/
+
+>> Segmented Sieve
+    https://www.geeksforgeeks.org/segmented-sieve/
+
+>> Catalan Numbers
+    https://www.geeksforgeeks.org/program-nth-catalan-number/
+
+>> Inclusion Exclusion Principle
+    https://www.geeksforgeeks.org/inclusion-exclusion-principle-and-programming-applications/
