@@ -1,0 +1,9 @@
+--- TOPICS ---
+>> Recursion
+
+
+--- PROBLEMS ---
+>> Checking if Array is Sorted 
+>> Calculate Array Sum 
+>> Linear Search Implementation
+>> Binary Search Implementation
