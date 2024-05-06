@@ -7,11 +7,15 @@ using namespace std;
 
 void printVec(vector<vector<int>> v)
 {
-    int size = v.size();
     cout << "elements :";
-    for (int i = 0; i < size; i++)
+    for (const auto &innerVec : v)
     {
-        cout << " " << v[i];
+        cout << " {";
+        for (int elem : innerVec)
+        {
+            cout << " " << elem;
+        }
+        cout << "} ";
     }
     cout << endl;
 }
@@ -34,19 +38,15 @@ void solve(vector<int> nums, vector<int> output, int index, vector<vector<int>> 
     solve(nums, output, index + 1, ans);
 }
 
-vector<vector<int>> subsets(vector<int> &nums)
+int main()
 {
+    vector<int> nums = {1, 2, 3};
+
     vector<vector<int>> ans;
     vector<int> output;
     int index = 0;
     solve(nums, output, index, ans);
-    return ans;
-}
 
-int main()
-{
-    vector<int> vec = {1, 2, 3};
-    vector<vector<int>> res = subsets(vec);
-    printVec(res);
+    printVec(ans);
     return 0;
 }
