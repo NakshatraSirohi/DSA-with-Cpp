@@ -1,0 +1,8 @@
+--- TOPICS ---
+>> Encapsulation
+>> Inheritance and It's Types
+    Single Inheritance
+    Multilevel Inheritance
+    Multiple Inheritance
+    Hierarchical Inheritance
+    Hybrid Inheritance
