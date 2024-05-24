@@ -6,3 +6,9 @@
     Multiple Inheritance
     Hierarchical Inheritance
     Hybrid Inheritance
+>> Polymorphism
+    Compile Time Polymorphism
+        Function Overloading
+        Operator Overloading
+    Run Time Polymorphism
+        Method Overriding
