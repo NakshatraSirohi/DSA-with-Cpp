@@ -1,0 +1,10 @@
+--- TOPICS ---
+>> Singly Linked List
+    Traverse
+    Insertions At Start, End or Any Position
+    Deletion on Any Position
+
+>> Doubly Linked List
+    Traverse & find length
+    Insertions At Start, End or Any Position
+    Deletion on Any Position
