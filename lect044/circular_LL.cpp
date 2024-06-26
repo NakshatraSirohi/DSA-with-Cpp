@@ -24,6 +24,7 @@ public:
             delete next;
             this->next = NULL;
         }
+        cout << "deleted : " << value << endl;
     }
 };
 
@@ -45,7 +46,7 @@ void print(Node *tail)
     cout << endl;
 }
 
-void insertion(Node *&tail, int element, int d)
+void valueInsert(Node *&tail, int element, int d)
 {
     // empty list
     if (tail == NULL)
@@ -67,6 +68,33 @@ void insertion(Node *&tail, int element, int d)
         Node *temp = new Node(d);
         temp->next = current->next;
         current->next = temp;
+    }
+}
+
+void positionInsert(Node *&tail, int data, int pos)
+{
+    // empty list
+    if (tail == NULL)
+    {
+        Node *newNode = new Node(data);
+        tail = newNode;
+        newNode->next = newNode;
+    }
+
+    // if list is not empty
+    else
+    {
+        Node *curr = tail;
+        int count = 2;
+        while (count < pos)
+        {
+            curr = curr->next;
+            count++;
+        }
+
+        Node *temp = new Node(data);
+        temp->next = curr->next;
+        curr->next = temp;
     }
 }
 
@@ -114,34 +142,43 @@ int main()
 {
     Node *tail = NULL;
 
-    insertion(tail, 4, 3);
+    // value insertion
+    valueInsert(tail, 4, 3);
     print(tail);
+    cout << "tail->data : " << tail->data << endl;
+    cout << endl;
 
-    insertion(tail, 3, 5);
+    valueInsert(tail, 3, 5);
     print(tail);
+    cout << "tail->data : " << tail->data << endl;
+    cout << endl;
 
-    insertion(tail, 5, 7);
+    // positional insertion
+    positionInsert(tail, 6, 2);
     print(tail);
+    cout << "tail->data : " << tail->data << endl;
+    cout << endl;
 
-    insertion(tail, 5, 6);
+    positionInsert(tail, 8, 4);
     print(tail);
+    cout << "tail->data : " << tail->data << endl;
+    cout << endl;
 
-    insertion(tail, 3, 4);
+    positionInsert(tail, 2, 1);
     print(tail);
+    cout << "tail->data : " << tail->data << endl;
+    cout << endl;
+
+    // value deletion
+    deletion(tail, 6);
+    print(tail);
+    cout << endl;
 
     deletion(tail, 3);
     print(tail);
+    cout << endl;
 
-    deletion(tail, 6);
-    print(tail);
-
-    deletion(tail, 4);
-    print(tail);
-
-    deletion(tail, 7);
-    print(tail);
-
-    deletion(tail, 5);
+    deletion(tail, 8);
     print(tail);
 
     return 0;

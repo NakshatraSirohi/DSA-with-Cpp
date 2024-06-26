@@ -25,6 +25,7 @@ public:
             delete next;
             next = NULL;
         }
+        cout << "deleted : " << val << endl;
     }
 };
 
@@ -41,7 +42,7 @@ void print(Node *head)
     cout << endl;
 }
 
-// calculate length
+// calculating length
 int getLen(Node *head)
 {
     int len = 0;
@@ -126,7 +127,7 @@ void insertAtPosition(int d, int pos, Node *&tail, Node *&head)
     nodeToInsert->prev = temp;
 }
 
-void deletion(int pos, Node *&head)
+void deleteNode(int pos, Node *&head, Node *&tail)
 {
     // starting node
     if (pos == 1)
@@ -138,25 +139,35 @@ void deletion(int pos, Node *&head)
         delete temp;
     }
 
-    // last or any position node
+    // middle or last node
     else
     {
-        Node *current = head;
-        Node *previous = NULL;
+        Node *currNode = head;
+        Node *prevNode = NULL;
 
         int count = 1;
         while (count < pos)
         {
-            previous = current;
-            current = current->next;
+            prevNode = currNode;
+            currNode = currNode->next;
             count++;
         }
 
-        current->prev = NULL;
-        previous->next = current->next;
-        current->next = NULL;
+        currNode->prev = NULL;
+        prevNode->next = currNode->next;
 
-        delete current;
+        // cases to handle tail
+        if (currNode->next == NULL)
+        {
+            tail = prevNode;
+        }
+        else
+        {
+            currNode->next->prev = prevNode;
+            currNode->next = NULL;
+        }
+
+        delete currNode;
     }
 }
 
@@ -166,9 +177,10 @@ int main()
 
     Node *head = node1;
     Node *tail = node1;
-    print(head);
 
+    print(head);
     cout << "length is " << getLen(head) << endl;
+    cout << endl;
 
     insertAtHead(11, head, tail);
     insertAtHead(12, head, tail);
@@ -183,17 +195,24 @@ int main()
     print(head);
 
     cout << "length is " << getLen(head) << endl;
+    cout << endl;
 
-    deletion(7, head);
+    deleteNode(7, head, tail);
     print(head);
+    cout << "tail->data : " << tail->data << endl;
+    cout << "head->data : " << head->data << endl;
+    cout << endl;
 
-    deletion(3, head);
+    deleteNode(3, head, tail);
     print(head);
+    cout << "tail->data : " << tail->data << endl;
+    cout << "head->data : " << head->data << endl;
+    cout << endl;
 
-    deletion(1, head);
+    deleteNode(1, head, tail);
     print(head);
-
-    cout << "length is " << getLen(head) << endl;
+    cout << "tail->data : " << tail->data << endl;
+    cout << "head->data : " << head->data << endl;
 
     return 0;
 }
