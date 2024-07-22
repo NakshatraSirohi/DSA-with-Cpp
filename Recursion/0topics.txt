@@ -5,13 +5,19 @@
 
 
 ---- PROBLEMS ----
->> print (1 to N) & (N to 1)
->> factorial
->> sort an array/vector
->> sort a stack
->> delete middle element of a stack
->> reverse a stack
->> kth symbol in grammar
->> tower of hanoi
->> print subsets/powersets
-    print unique subsets & it's variations
+01. print (1 to N) & (N to 1)
+02. factorial
+03. sort an array/vector
+04. sort a stack
+05. delete middle element of a stack
+06. reverse a stack
+07. kth symbol in grammar
+08. tower of hanoi
+09. print subsets/powersets
+     print unique subsets & it's variations
+10. permutation with spaces
+11. permutation with case change
+12. permutation with letter case
+13. generate all balanced parentheses
+14. print N-bit binary number having more 1's >= 0's for any prefix
+15. josephus problem
